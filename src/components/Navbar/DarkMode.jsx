@@ -12,7 +12,6 @@ function DarkMode() {
     useEffect(()=>{
         const element = document.documentElement;
         const html = document.documentElement;
-        document.documentElement.classList.add('dark');
         html.setAttribute('data-theme',theme);
 
         if(theme=='dark'){
